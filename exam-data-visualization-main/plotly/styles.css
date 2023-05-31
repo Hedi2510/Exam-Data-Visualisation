@@ -1,0 +1,47 @@
+#data-viz {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.bar {
+  fill: #4287f5;
+}
+
+.bar-label {
+  font-size: 14px;
+  fill: #ffffff;
+}
+
+.y-axis text {
+  font-size: 12px;
+}
+
+.x-axis text {
+  font-size: 12px;
+}
+
+.x-axis-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.y-axis-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.bar:hover {
+  stroke: #4287f5;
+  stroke-width: 2px;
+}
+
