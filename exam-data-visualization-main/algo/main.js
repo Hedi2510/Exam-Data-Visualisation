@@ -11,7 +11,7 @@ function twoSum(nums, target) {
         numMap.set(nums[i], i);
     }
 
-    return []; // Retourne un tableau vide si aucune paire ne satisfait la condition
+    return []; 
 }
 
 const nums = [2, 7, 11, 15];
