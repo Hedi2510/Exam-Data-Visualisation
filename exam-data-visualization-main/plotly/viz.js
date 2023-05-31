@@ -3,17 +3,13 @@ fetch('data.json')
   .then((data) => run_visualization(data));
 
 function run_visualization(data) {
-  // Tri des données par population
   sortByCountryPopulation(data);
-
-  // Sélection des 30 premiers pays avec la plus grande population
+  
   const top30Countries = data.slice(0, 30);
-
-  // Extraction des noms de pays et des populations
+  
   const countries = top30Countries.map((country) => country.country);
   const populations = top30Countries.map((country) => country.population);
 
-  // Création du graphique en barres
   const trace = {
     x: populations,
     y: countries,
